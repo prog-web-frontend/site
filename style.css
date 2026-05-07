@@ -1,0 +1,26 @@
+p {
+    text-align: center;
+}
+
+body {  
+    background-color: #ffffff;}
+
+    body {
+  outline: 5px solid blue;
+  outline-offset: -10px; /* traz o contorno para dentro */
+}
+
+   
+p {
+  border: 10px solid #13eb2fbd; /* espessura, estilo, cor */
+  min-height: 95vh; /* garante que a borda cubra a tela */
+  margin: 10px; /* opcional: cria um espaço entre a borda e a janela */
+}
+
+body {
+    background-image: url('../imagens/bflor.png');
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-position: center; /* Centraliza */
+    background-size: contain; /* Cobre todo o espaço */
+    background-attachment: fixed; /* Fixa a imagem ao rolar */
+}
